@@ -109,7 +109,7 @@ class IndexController extends Controller
         );
         return $this->redirectToRoute('homepage');
       }
-      return $this->render('default/create.html.twig',[
+      return $this->render('default/edit.html.twig',[
         'form'=>$form->createView(),
       ]);
     }

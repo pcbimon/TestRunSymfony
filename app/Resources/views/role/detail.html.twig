@@ -1,0 +1,14 @@
+{% extends 'layout.html.twig' %}
+{% block title %}Detail Role{% endblock %}
+{% block content %}
+  <div class="col-md-12">
+    <a href="{{ path('role.index') }}" class="btn btn-secondary">Back to Index</a>
+  </div>
+  <hr>
+  <div class="col-md-12">
+    <h2 class="page-header">{{role.name}}</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Description : {{role.description}}</li>
+    </ul>
+  </div>
+{% endblock %}

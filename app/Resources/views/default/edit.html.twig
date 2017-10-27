@@ -1,9 +1,10 @@
 {% extends 'layout.html.twig' %}
-{% block title %}Create New User{% endblock %}
+{% block title %}Edit User{% endblock %}
 {% block content %}
   <div class="col-md-12">
     {{ form_start(form) }}
     {{ form_widget(form) }}
+    <button type="submit" class="btn btn-block btn-primary">Update User</button>
     {{ form_end(form) }}
   </div>
 {% endblock %}
