@@ -1,0 +1,9 @@
+{% extends 'layout.html.twig' %}
+{% block title %}Create New User{% endblock %}
+{% block content %}
+  <div class="col-md-12">
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+  </div>
+{% endblock %}
